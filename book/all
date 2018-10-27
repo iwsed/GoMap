@@ -1,0 +1,4 @@
+for i in `ls *.md`
+do
+ln -f $i ../../book/$i
+done
