@@ -1,4 +1,5 @@
-for i in `ls *.md`
+for i in `find . -type f -name "*.md"`
 do
-ln -f $i ../../book/$i
+file=`basename $i`
+ln -f $i ../../book/$file
 done
