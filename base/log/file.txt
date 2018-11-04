@@ -1,0 +1,4 @@
+TRACE: 2018/09/28 15:32:25 log.go:47: I have something standard to say
+INFO: 2018/09/28 15:32:25 log.go:48: Special Information
+WARNING: 2018/09/28 15:32:25 log.go:49: There is something you need to know about
+ERROR: 2018/09/28 15:32:25 log.go:50: Something has failed

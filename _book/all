@@ -1,0 +1,6 @@
+#for i in `find . -type f -name "*.md"`
+for i in `find . -type f -name "*.md" | cut -b 3-`
+do
+#file=`basename $i`
+ln -f $i ../../book/$i
+done
